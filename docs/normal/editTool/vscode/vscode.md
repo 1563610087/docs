@@ -1,6 +1,6 @@
 # Vscode笔记
 
-## 插件安装
+## 1、插件安装
 
 Chinese 
 
@@ -10,34 +10,69 @@ Code Spell Checker
 
 * 识别单词的错误拼写
 
-HTML Snippets
+auto Rename tag
 
-* HTML标签的自动补全
+* 同步修改 HTML/XML标签
 
-Prettier
+Path Intellisense
 
-* 用于代码规范，整洁
+* 路径补全插件
 
-Bracket Pair Colorizer 2
+* ```
+  "path-intellisense.mappings": {
+      "@": "${workspaceRoot}/src"
+  }
+  ```
 
-* 用于提示各种括号的范围
+Image preview
 
-indent-rainbow
-
-* 缩进彩虹；用于提示代码范围的插件
-
-Color highlight
-
-* 直观展示你定义的颜色
-* ![image-20190828113446911](/Users/qinzejian/Library/Application Support/typora-user-images/image-20190828113446911.png)
-
-![image-20190828113609337](/Users/qinzejian/Library/Application Support/typora-user-images/image-20190828113609337.png)
-
-### 路径补全
+* 鼠标悬停可以看到相应的图片
 
 path intellisense
 
-## 快捷键
+* 文件路径补全
+
+code runner
+
+* 运行代码
+
+vue-peek
+
+* 转到组件中
+
+vscode-icons
+
+* 文件图标
+
+vetur
+
+* vue语法高亮
+
+tabnine ai autocomplete
+
+* 强大智能代码补全插件，非常好用
+
+vue-vscode-sneppets
+
+* vue代码片段
+
+JavaScript code sneppets
+
+* js代码片段
+
+git history
+
+* 查看代码提交记录
+
+gitlens
+
+* git 插件
+
+html snappets
+
+* html片段
+
+## 2、快捷键
 
 ### 全局
 
@@ -235,7 +270,7 @@ Command + Home 滚动到顶部
 Command + End 滚动到底部
 ```
 
-## Git 
+## 3、Git 
 
 **代码里的左侧颜色标识:**
 
@@ -258,17 +293,3 @@ T: 文件的类型被修改了。
 U: 文件没有被合并(你需要完成合并才能进行提交)
 X: 未知状态
 
-## 1 设置中文
-
-vscode是一款开源的跨平台编辑器。默认情况下，vscode使用的语言为英文(us)，如何将其显示语言修改成中文了？
-只需要4步，轻松搞定。
-
-1）打开vscode工具;
-
-1. 商店中搜索Chinese（Simplied） Lang，安装即可;
-
-3）使用快捷键组合【Ctrl+Shift+p】，在搜索框中输入“configure display language”，点击确定后;
-
-4）修改locale.json文件下的属性“locale”为“zh-CN”;
-
-5）重启vscode工具.
